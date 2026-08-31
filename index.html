@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ff6fae">
+  <title>c+a ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="hearts"></div>
+  <div id="petals"></div>
+  <div id="lipCursor" aria-hidden="true">💋</div>
+  <div class="sparkles"></div>
+
+  <main>
+    <section id="question" class="screen active">
+      <div class="glass card">
+        <div class="tiny">Pour ma princesse ✨</div>
+        <div class="big-heart">♥</div>
+        <h1>Est-ce que tu m'aimes, Capucine ?</h1>
+        <p class="subtitle">Attention, ta réponse peut avoir de grosses conséquences… 😌❤️</p>
+        <div class="buttons">
+          <button id="yesBtn" class="btn primary">Oui ❤️</button>
+          <button id="noBtn" class="btn secondary">Non 😈</button>
+        </div>
+        <p id="noText" class="hint"></p>
+      </div>
+    </section>
+
+    <section id="welcome" class="screen">
+      <div class="glass card">
+        <div class="emoji">🥹❤️</div>
+        <h1>Je le savais !</h1>
+        <p class="subtitle">Merci mon amour. Moi aussi je t'aime énormément.</p>
+        <p class="message">Et comme le <strong>2 septembre 2026</strong> est une journée un peu spéciale… j’ai préparé quelque chose pour toi, parce que tu le vaux bien.</p>
+        <button class="btn primary nav" data-target="home">Découvrir 🎁</button>
+      </div>
+    </section>
+
+    <section id="home" class="screen">
+      <div class="home-wrap">
+        <div class="hero glass">
+          <span class="badge">02 • 09 • 2026</span>
+          <h1>Joyeux anniversaire<br><span>ma princesse Capucine ❤️</span></h1>
+          <p>Un petit coin à nous, pour nos souvenirs, nos fous rires et tout le reste.</p>
+          <div class="floating-heart">♥</div>
+        </div>
+
+        <div class="menu-grid">
+          <button class="menu-card nav" data-target="souvenirs" aria-label="Ouvrir la page Photos souvenirs">
+            <span>📸</span><b>Quelques souvenirs</b><small>Des moments qui me font penser à toi</small>
+          </button>
+          <button class="menu-card nav" data-target="letter" aria-label="Ouvrir la page de la lettre">
+            <span>💌</span><b>Une petite lettre</b><small>Pour toi, sans trop de cérémonie</small>
+          </button>
+          <button class="menu-card nav" data-target="us" aria-label="Ouvrir la page Nous deux">
+            <span>💗</span><b>Nous deux</b><small>Parce que c’est toi et moi</small>
+          </button>
+          <button class="menu-card nav" data-target="surprise" aria-label="Ouvrir la page surprise">
+            <span>🎁</span><b>La surprise</b><small>Il restait encore un petit truc</small>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="souvenirs" class="screen page">
+      <div class="page-head">
+        <button class="back nav" data-target="home">←</button>
+        <div><span class="eyebrow">Nos moments</span><h2>Photos souvenirs 📸</h2></div>
+      </div>
+      <div class="gallery">
+        <article class="photo-card"><img src="photos/photo1.jpg" alt="Souvenir 1"></article>
+        <article class="photo-card"><img src="photos/photo2.jpg" alt="Souvenir 2"></article>
+        <article class="photo-card"><img src="photos/photo3.jpg" alt="Souvenir 3"></article>
+        <article class="photo-card"><img src="photos/photo4.webp" alt="Souvenir 4"></article>
+        <article class="photo-card"><img src="photos/photo5.jpg" alt="Souvenir 5"></article>
+        <article class="photo-card"><img src="photos/photo6.jpg" alt="Souvenir 6"></article>
+      </div>
+    </section>
+
+    <section id="letter" class="screen page">
+      <div class="page-head">
+        <button class="back nav" data-target="home">←</button>
+        <div><span class="eyebrow">Pour toi</span><h2>Une petite lettre 💌</h2></div>
+      </div>
+      <div class="letter glass">
+        <div class="letter-icon">💗</div>
+        <div class="letter-meta">Pour toi, le jour de ton anniversaire</div>
+        <h3>Coucou ma petite princesse ❤️</h3>
+        <div class="letter-body">
+          <p>Je t’ai fait ce petit site pour ton anniversaire, juste pour te faire plaisir et pour te montrer à quel point tu comptes pour moi. J’espère vraiment que ça te fera sourire et que tu aimeras la petite surprise que je t’ai préparée. 🥰</p>
+          <p>Déjà, joyeux anniversaire pour tes 15 ans ! Ça me fait vraiment bizarre de me dire que tu as déjà 15 ans 😭. Et surtout… je vais enfin arrêter de pouvoir dire qu’on a trois ans d’écart 😅. Maintenant, on va pouvoir faire encore plus de choses ensemble, et j’espère que ta maman acceptera un peu plus de trucs qu’avant 😂❤️.</p>
+          <p>Mais surtout, je voulais te dire que tous les moments qu’on a passés ensemble jusqu’ici m’ont vraiment fait plaisir. Même les moments les plus simples, quand on rigole pour rien ou qu’on est juste tous les deux, je les garde précieusement.</p>
+          <p>J’espère vraiment pouvoir être à tes côtés pour ton prochain anniversaire, puis celui d’après, et encore plein d’autres après. J’ai envie qu’on continue à créer plein de souvenirs ensemble et que chaque année soit encore plus belle que la précédente. ❤️</p>
+          <p>Profite bien de ta journée ma princesse, parce qu’elle est à toi. Et surtout, n’oublie jamais que je t’aime énormément. 🥹❤️</p>
+          <p class="letter-closing">Joyeux anniversaire ma princesse ❤️💍</p>
+        </div>
+        <div class="signature">Avec tout mon amour,<br><strong>Ton prince ❤️</strong></div>
+      </div>
+    </section>
+
+    <section id="us" class="screen page">
+      <div class="page-head">
+        <button class="back nav" data-target="home">←</button>
+        <div><span class="eyebrow">c + a</span><h2>Nous deux 💗</h2></div>
+      </div>
+      <div class="us-content">
+        <div class="quote glass">
+          <span>“</span>
+          <p>Je ne sais pas exactement combien de souvenirs on va encore créer, mais je sais une chose : j'ai envie d'en remplir énormément avec toi.</p>
+          <small>— Ton prince</small>
+        </div>
+        <div class="timeline">
+          <div><b>❤️</b><p><strong>Toi + moi</strong><br>Une histoire qui mérite plein de nouvelles pages.</p></div>
+          <div><b>✨</b><p><strong>Des souvenirs</strong><br>Des photos, des fous rires et des moments qu'on n'oubliera pas.</p></div>
+          <div><b>🌙</b><p><strong>Et la suite…</strong><br>Elle reste à écrire. Et j'espère qu'elle sera encore plus belle.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="surprise" class="screen page">
+      <div class="page-head">
+        <button class="back nav" data-target="home">←</button>
+        <div><span class="eyebrow">Dernière étape</span><h2>Une petite surprise 🎁</h2></div>
+      </div>
+      <div class="surprise glass">
+        <div class="gift" id="gift">🎁</div>
+        <h3>Tu veux vraiment l'ouvrir ? 👀</h3>
+        <p id="giftText">Clique sur le cadeau </p>
+        <button id="openGift" class="btn primary">Ouvrir ❤️</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>c+a ❤️ • Fait avec beaucoup d'amour</footer>
+  <script src="script.js"></script>
+</body>
+</html>
